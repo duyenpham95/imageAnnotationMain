@@ -1,0 +1,41 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "valueStream",
+            "otherEntityName": "valueStream",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "valueStream"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "tagName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "x",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "y",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "height",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "width",
+            "fieldType": "Integer"
+        }
+    ],
+    "changelogDate": "20180607152152",
+    "dto": "no",
+    "service": "serviceImpl",
+    "entityTableName": "value_stream_tag",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no",
+    "microserviceName": "main",
+    "searchEngine": false
+}

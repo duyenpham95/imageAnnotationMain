@@ -1,0 +1,18 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "elementName",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180605164938",
+    "dto": "no",
+    "service": "serviceImpl",
+    "entityTableName": "value_stream_element",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no",
+    "microserviceName": "main",
+    "searchEngine": false
+}

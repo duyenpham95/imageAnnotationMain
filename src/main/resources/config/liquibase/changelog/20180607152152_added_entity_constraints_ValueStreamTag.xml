@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity ValueStreamTag.
+    -->
+    <changeSet id="20180607152152-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="value_stream_id"
+                                 baseTableName="value_stream_tag"
+                                 constraintName="fk_value_stream_tag_value_stream_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="value_stream"/>
+
+    </changeSet>
+</databaseChangeLog>
